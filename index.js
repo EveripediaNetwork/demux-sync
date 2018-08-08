@@ -19,7 +19,7 @@ async function main () {
     
     const actionReader = new NodeosActionReader(
         "http://127.0.0.1:8888",
-        5445867
+        2985348
     )
     
     const actionWatcher = new BaseActionWatcher(
@@ -28,7 +28,7 @@ async function main () {
       250, // Poll at twice the block interval for less latency
     )
     
-    actionWatcher.watch().catch(console.log)
+    actionWatcher.watch()
 }
 
 main()
