@@ -19,7 +19,8 @@ async function main () {
     
     const actionReader = new NodeosActionReader(
         "http://127.0.0.1:8888",
-        2985348
+        //2985348
+	5445860
     )
     
     const actionWatcher = new BaseActionWatcher(

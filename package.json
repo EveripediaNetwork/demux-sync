@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "demux-js-mysql": "0.0.5",
+    "demux-js-mysql": "0.0.6",
     "promise-mysql": "^3.3.1"
   }
 }
